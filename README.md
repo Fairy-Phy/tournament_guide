@@ -1,41 +1,51 @@
-# Website
+# osu! トーナメントガイド
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+日本語で書かれたosu!のトーナメントを開催するための技術系の部分のガイドです
 
-### Installation
+このサイトのフレームワークには[Docusaurus 2](https://docusaurus.io/)を使用してるよ！
 
-```
-$ yarn
-```
+## つかいかた？
 
-### Local Development
+### いんすとーる
 
-```
-$ yarn start
+```sh
+yarn
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### ろーかるでかいし
 
-### Build
-
-```
-$ yarn build
+```sh
+yarn start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+このコマンドはローカルで動作し、コマンド実行後既定のブラウザで開きます。実行中はサーバーをいちいち再起動することなくファイルが保存された段階で自動的に反映されます。
 
-### Deployment
+### びるど
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```sh
+yarn build
 ```
 
-Not using SSH:
+このコマンドは`build`ディレクトリに静的コンテンツを生成し、レンタルサーバーなどで使用することができます。
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+### でぷろい
+
+SSHの場合:
+
+```sh
+USE_SSH=true yarn deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+SSHではない場合:
+
+```sh
+GIT_USER=<Githubユーザー名> yarn deploy
+```
+
+GitHub pagesを使用している場合はこのコマンドでサイトを構築して`gh-pages`ブランチにプッシュするのが便利らしい。
+
+## らいせんす
+
+これはApache License 2.0っていうのでライセンスされてるって！
+
+-> <https://github.com/Fairy-Phy/tournament_guide/blob/main/LICENSE>
