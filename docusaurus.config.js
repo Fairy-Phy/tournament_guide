@@ -37,11 +37,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      hideableSidebar: true,
       colorMode: {
         defaultMode: "dark"
       },
       navbar: {
         title: 'osu! トーナメントガイド',
+        hideOnScroll: true,
         items: [
         ],
       },
@@ -81,7 +83,7 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
-              },
+              },hideableSideba
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
