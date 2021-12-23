@@ -42,10 +42,6 @@ const config = {
       },
       navbar: {
         title: 'osu! トーナメントガイド',
-        logo: {
-          alt: 'osu! トーナメントガイドLogo?',
-          src: 'img/logo.svg',
-        },
         items: [
         ],
       },

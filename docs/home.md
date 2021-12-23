@@ -3,34 +3,34 @@ sidebar_position: 1
 slug: /
 ---
 
-# Tutorial Intro
+# osu! トーナメントガイド
 
-Let's discover **Docusaurus in less than 5 minutes**.
+このサイトはosu! トーナメントガイドです！ このサイトでは、音楽ゲームosu!のトーナメントの始め方をドキュメントにして掲載しています。
 
-## Getting Started
+:::caution 注意
 
-Get started by **creating a new site**.
+このサイトはあくまでソフトウェアの使い方やトラブルシューティングなどの技術面での解説をメインにしています。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+各トーナメントの個々に依存する部分(大会のテーマや各マッププールの決め方等)はここでは説明しませんのであらかじめご了承ください。
 
-## Generate a new site
+:::
 
-Generate a new Docusaurus site using the **classic template**:
+## 前提知識
 
-```shell
-npm init docusaurus@latest my-website classic
-```
+説明を始めるに当たりこのサイトでは以下の知識がすでに習得済みであることを前提に進めます。
 
-## Start your site
+* 日本語
 
-Run the development server:
+* 多少の英語
 
-```shell
-cd my-website
+* Windowsの基本操作
 
-npx docusaurus start
-```
+  これにはファイルパスや拡張子などの知識が含まれます
 
-Your site starts at `http://localhost:3000`.
+* osu!の基本操作
 
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and displays your changes.
+  ゲーム内の設定項目などがわかっていれば問題ありません
+
+* OBSの基本操作
+
+  シーン設定、ソース追加とプロパティ変更、フィルター設定、設定項目が多少わかるくらい
