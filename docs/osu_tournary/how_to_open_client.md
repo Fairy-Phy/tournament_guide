@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # osu!tourneyの開き方
 
+ここではosu!tournaryクライアントの起動方法について説明します。
+
 :::danger 開始する前に
 
 osu!tourneyクライアントはosu!サポータータグを持っていないと開くことができません！
@@ -24,7 +26,7 @@ osu!tourneyクライアントはosu!サポータータグを持っていない�
 
 ユーザーアカウント制御が発動し、管理者権限を求められるシーンがありますがすべて『いいえ』を選択してください。
 
-もし許可してしまうと、`.osz`や`.osr`といった拡張子の既定のソフトウェアが元あるosu!からインストールしたosu!に切り替わってしまうためです。
+もし許可してしまうと、`.osz`や`.osr`といった拡張子の既定のソフトウェアが元あるosu!からインストールしたosu!に切り替わってしまいます。
 
 :::
 
@@ -38,13 +40,13 @@ banchoサーバーにログインします。このとき、『ユーザーと�
 
 ## 3. `tournament.cfg`を作成する
 
-エクスプローラーでosu!のインストールフォルダを開き、`右クリック`→`新規作成`→`テキストドキュメント`でtxtを作成し名前を`tournament.cfg`にします。 (拡張子が表示されていない場合設定で表示させてください)
+エクスプローラーでosu!のインストールフォルダーを開き、`右クリック`→`新規作成`→`テキストドキュメント`でtxtを作成し名前を`tournament.cfg`にします。 (拡張子が表示されていない場合設定で表示させてください)
 
 作成したとき中身は空のままにしておきます。
 
 ## 4. osu!を開く
 
-`tournament.cfg`がフォルダ内にある状態でosu!を開くと次のような文章のウィンドウが表示されます。
+`tournament.cfg`がフォルダー内にある状態でosu!を開くと次のような文章のウィンドウが表示されます。
 
 ```log
 Please note that the streaming client is only meant for use by !  tournament hosts and streamers. It is not made for end-users and we cannot support high volumes of concurrent use. 
@@ -54,4 +56,4 @@ Please note that the streaming client is only meant for use by !  tournament hos
 
 `OK`を押します、このメッセージは初回のみでこれをOK押すと空の`tournament_accepted`ファイルが作成されます。
 
-OK押すと晴れてトーナメントマネージャー(osu!tournaryクライアント)が起動します、これでトーナメントクライアントの起動は完了です。各設定は`tournament.cfg`に起動時に記述されています。設定の説明は[`tournament.cfg`説明](./tournament_cfg.md)に書いてあります
+OK押すと晴れてトーナメントマネージャー(osu!tournaryクライアント)が起動します、これでトーナメントクライアントの起動は完了です。各設定は`tournament.cfg`に起動した際自動的に記述されています。設定の説明は[`tournament.cfg`説明](./tournament_cfg.md)に書いてあります。
