@@ -48,7 +48,7 @@ banchoサーバーにログインします。このとき、『ユーザーと�
 
 `tournament.cfg`がフォルダー内にある状態でosu!を開くと次のような文章のウィンドウが表示されます。
 
-```log
+```txt title="出てくるウィンドウのメッセージ文"
 Please note that the streaming client is only meant for use by !  tournament hosts and streamers. It is not made for end-users and we cannot support high volumes of concurrent use. 
 (以下日本語訳)
 ストリーミングクライアントは、トーナメント主催者とストリーマーのみが使用することを目的としています。それはエンドユーザーのために作られたものではなく、私たちは大量の同時使用をサポートすることはできません。
