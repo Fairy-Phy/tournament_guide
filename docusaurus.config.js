@@ -14,7 +14,6 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
   organizationName: 'Fairy_Phy', // Usually your GitHub org/user name.
   projectName: 'tournament_guide', // Usually your repo name.
 
