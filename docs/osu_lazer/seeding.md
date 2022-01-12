@@ -9,3 +9,11 @@ sidebar_position: 9
 Seedingは実際にオーバーレイで使用するチーム(プレイヤー)の予選結果を映す画面です。
 
 ![Seeding](/img/osu_lazer/seeding.png)
+
+## Control Panel
+
+### ① Show first team
+
+### ② Show secound team
+
+### ③ Show specific team
