@@ -16,6 +16,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   organizationName: 'Fairy_Phy', // Usually your GitHub org/user name.
   projectName: 'tournament_guide', // Usually your repo name.
+  favicon: "/img/favicon.png",
 
   presets: [
     [
@@ -35,6 +36,10 @@ const config = {
         },
       }),
     ],
+  ],
+
+  plugins: [
+    "docusaurus-plugin-image-zoom"
   ],
 
   themeConfig:
@@ -101,6 +106,16 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      zoom: {
+        selector: '.markdown :not(em) > img',
+        config: {
+          // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+          background: {
+            light: 'rgba(0, 0, 0, 0.5)',
+            dark: 'rgba(0, 0, 0, 0.5)'
+          }
+        }
+      }
     }),
   stylesheets: [
     {

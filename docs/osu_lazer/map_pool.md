@@ -10,7 +10,7 @@ Map Poolは実際にオーバーレイで使用するマッチの選曲時の画
 
 :::tip 補足
 
-ipcと連動していると自動でGameplayからMap Poolに自動で移動する機能があり、加えて両チーム(プレイヤー)のBanが選択されていればあとは自動で選曲時にpick動作をしてGameplayに移動します。
+GameplayとMap Poolの間には、自動でGameplayからMap Poolに自動で移動する機能があり、加えて両チーム(プレイヤー)のBanが選択されていればあとは自動で選曲時にpick動作をしてGameplayに移動します。
 
 :::
 
