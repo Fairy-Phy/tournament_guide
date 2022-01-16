@@ -16,7 +16,7 @@ sidebar_position: 1
 
 ## 1. osu!lazerをGitHubからインストーラーをダウンロードする
 
-githubにある[ppyの公式レポジトリ](https://github.com/ppy/osu)からosu!lazerのインストーラーをダウンロードします。
+GitHubにある[ppyの公式レポジトリ](https://github.com/ppy/osu)からosu!lazerのインストーラーをダウンロードします。
 
 念の為ですがwindowsのインストーラーのURLは[こちら](https://github.com/ppy/osu/releases/latest/download/install.exe)です。
 
