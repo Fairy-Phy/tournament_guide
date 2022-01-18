@@ -46,7 +46,7 @@ Matchesでは、osu!lazerのBracket Editorのようなマッチの追加を行�
 
 ### BO
 
-ベストオブを入力します。osu!tournaryに説明が載っています。
+ベストオブを入力します。BOについては[こちら](../osu_tournary/feature.md#-ベスト)をご覧ください。
 
 ### Team Size
 
