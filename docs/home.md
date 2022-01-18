@@ -31,6 +31,45 @@ slug: /
 
   ゲーム内の設定項目などがわかっていれば問題ありません
 
-* OBSの基本操作
+## 各バージョン
 
-  シーン設定、ソース追加とプロパティ変更、フィルター設定、設定項目が多少わかるくらい
+現時点の情報は以下のバージョンで検証をしていますが、このバージョンより低いもしくは高い場合、仕様変更により新しく機能が追加されていたりUIが変わったりするのでご注意ください。
+
+* OS
+
+  * Windows 10: 21H2
+
+* osu!
+
+  * Stable: 20220101.1
+  * Cutting Edge: 20220109
+
+* osu!lazer
+
+  * 2022.118.0
+
+* script-chan
+
+  * 2.2.12
+
+## 参考
+
+作成に当たりさまざまな情報や検証を参考にしました。
+
+* 公式wiki: <https://osu.ppy.sh/help/wiki/osu!tourney>
+
+* osu!Lazer Tournament Client Full Guide(一部古い): <https://www.youtube.com/watch?v=13IY-bpM1RY>
+
+* osu!Lazer source code: <https://github.com/ppy/osu>
+
+* script-chan source code: <https://git.cartooncraft.fr/shARPII/script-chan>
+
+* ISO 3166-1国名コード: <https://www.asahi-net.or.jp/~ax2s-kmtn/ref/iso3166-1.html>
+
+* ISO 8601: <https://qiita.com/kidatti/items/272eb962b5e6025fc51e>
+
+* osu!Lazer showcase client resolution: <https://mirai.blog/adding-graphics-to-your-osu-lazer-tournament-setup/#showcase>
+
+* 旧トーナメントドキュメント: <https://gist.github.com/Fairy-Phy/1bab3e1caa1b858c6a6d3232e0823e29>
+
+* さまざまな方々
