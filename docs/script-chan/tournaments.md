@@ -73,3 +73,17 @@ script-chan内部で使用される名前です。わかる名前なら何でも
 ### (Team ModeがHeadToHeadの場合のみ) Placing
 
 ### (Team ModeがHeadToHeadの場合のみ) Points given
+
+## アイコンの説明
+
+### ペンのマーク
+
+情報の編集を行います。
+
+### Discordのマーク
+
+Webhookの有効設定をします。Webhooksで追加されたWebhook設定にチェックをつけることで、そのトーナメントでチェックを付けたwebhookに送信できます。
+
+### ゴミ箱のマーク
+
+トーナメントを削除します。
