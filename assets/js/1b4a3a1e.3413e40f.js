@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktournament_guide=self.webpackChunktournament_guide||[]).push([[724],{4029:function(e){e.exports={blogPosts:[]}}}]);
