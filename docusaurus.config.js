@@ -10,8 +10,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'osu! トーナメントガイド',
   tagline: 'osu! tourney japanese guide',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://fairy-phy.github.io',
+  baseUrl: '/tournament_guide/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   organizationName: 'Fairy_Phy', // Usually your GitHub org/user name.
