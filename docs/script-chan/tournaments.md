@@ -10,9 +10,9 @@ Tournamentsでは、トーナメント情報の登録を行います。なお、
 
 左上の`New`を押すと登録情報の入力欄が出てくるので入力します。
 
-![入力欄]
+![入力欄](/img/script_chan/tournament.png)
 
-### ① Acronym
+### Acronym
 
 osu!tournary設定ファイルの`tournament.cfg`内にある`acronym`と同じ設定にします。
 
@@ -54,7 +54,7 @@ script-chan内部で使用される名前です。わかる名前なら何でも
 
 ### Command Timer
 
-手動で`mp!timer`コマンドを使用するときの秒数を入力します。
+手動で`!mp timer`コマンドを使用するときの秒数を入力します。
 
 ### Timer After Game
 
@@ -64,15 +64,9 @@ script-chan内部で使用される名前です。わかる名前なら何でも
 
 ピック後の全員が準備完了になるまでの準備時間の秒数を入力します。
 
-### (Team ModeがBattleRoyaleの場合のみ) BR Initial Lives
-
 ### Welcome String
 
 プレイヤーがマルチ部屋に入った際自動で送信されるメッセージを入力します。
-
-### (Team ModeがHeadToHeadの場合のみ) Placing
-
-### (Team ModeがHeadToHeadの場合のみ) Points given
 
 ## アイコンの説明
 
