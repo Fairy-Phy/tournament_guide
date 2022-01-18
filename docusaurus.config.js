@@ -115,7 +115,11 @@ const config = {
             dark: 'rgba(0, 0, 0, 0.5)'
           }
         }
-      }
+      },
+      gtag: {
+        trackingID: 'G-K7WY2EZS2N',
+        anonymizeIP: true,
+      },
     }),
   stylesheets: [
     {
