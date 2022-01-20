@@ -99,10 +99,10 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="notmake" label="未作成時" default>
-    <img src="/img/script_chan/match2.png" />
+    <img src={require("@site/static//img/script_chan/match2.png").default} alt="未作成時画像" />
   </TabItem>
   <TabItem value="maked" label="作成時">
-    <img src="/img/script_chan/match3.png" />
+    <img src={require("@site/static//img/script_chan/match3.png").default} alt="作成時画像" />
   </TabItem>
 </Tabs>
 

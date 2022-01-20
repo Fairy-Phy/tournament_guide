@@ -34,12 +34,21 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-K7WY2EZS2N',
+          anonymizeIP: true,
+        },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          trailingSlash: false,
+        },
       }),
     ],
   ],
 
   plugins: [
-    "docusaurus-plugin-image-zoom"
+    require.resolve("docusaurus-plugin-image-zoom"),
   ],
 
   themeConfig:
@@ -57,49 +66,6 @@ const config = {
       },
       footer: {
         style: 'dark',
-        /*
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },hideableSideba
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        */
         copyright: `Copyright ${new Date().getFullYear()} (Fairy)Phy, Built with Docusaurus.`,
       },
       prism: {
@@ -111,14 +77,10 @@ const config = {
         config: {
           // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
           background: {
-            light: 'rgba(0, 0, 0, 0.5)',
+            light: 'rgba(255, 255, 255, 0.5)',
             dark: 'rgba(0, 0, 0, 0.5)'
           }
         }
-      },
-      gtag: {
-        trackingID: 'G-K7WY2EZS2N',
-        anonymizeIP: true,
       },
     }),
   stylesheets: [

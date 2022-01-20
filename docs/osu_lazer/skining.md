@@ -80,12 +80,12 @@ Modアイコンはプリセットフォルダーの`Mods`フォルダーに入�
 
 <details>
   <summary>リスケーリングされていないSeeding</summary>
-  <img src="/img/osu_lazer/seed_mod.png" />
+  <img src={require("@site/static/img/osu_lazer/seed_mod.png").default} alt="Modがどでから画像" />
 </details>
 
 <details>
   <summary>マッププール系はリスケーリングされる</summary>
-  <img src="/img/osu_lazer/round_mod.png" />
+  <img src={require("@site/static/img/osu_lazer/round_mod.png").default} alt="リスケールされてる画像" />
 </details>
 
 ## 国旗のカスタムアイコン
@@ -100,8 +100,8 @@ Modアイコンはプリセットフォルダーの`Mods`フォルダーに入�
 
 <details>
   <summary>ファイル名を入れれば使える</summary>
-  <img src="/img/osu_lazer/flag_exp.png" />
-  <img src="/img/osu_lazer/link_filename.png" />
+  <img src={require("@site/static/img/osu_lazer/flag_exp.png").default} alt="Flagsフォルダatエクスプローラー" />
+  <img src={require("@site/static/img/osu_lazer/link_filename.png").default} alt="ファイル名とリンクしてるよー画像" />
 </details>
 
 ## 大会タイトルとロゴ
